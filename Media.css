@@ -1,0 +1,30 @@
+@media (min-width:770px){
+    .hero-mobile{
+       display: none;
+    }
+}
+
+@media (max-width:769px){
+    .hero-section{
+        display: none;
+    }
+    nav {
+        width: 100%;
+        padding: 0px 10px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    .nav-text {
+display: none;
+    }
+    nav img {
+        width: 100px;
+      }        
+      .nav-icon {
+        width: 150px;
+        font-size: 20px;
+      }
+}
